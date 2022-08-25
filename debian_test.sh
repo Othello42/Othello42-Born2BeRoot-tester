@@ -614,7 +614,7 @@ if [ $CHECK -ge 1 ]; then
 		if [ $( ls -l $DIR | grep -v '^d' | wc -l) -ge 1 ]; then
 			CHECK=1;
 		fi
-		ERRORMSG="No potential errorlog for sudo found.";
+		ERRORMSG="No potential log for sudo found.";
 	else
 		ERRORMSG"Directory '$DIR' not found."
 	fi
